@@ -1,0 +1,3 @@
+﻿  registration.cpp
+E:\Donat\érettségi\programs\black jack\registration.cpp(152,7): warning C4102:  'game': unreferenced label
+  black jack.vcxproj -> E:\Donat\érettségi\programs\black jack\Debug\black jack.exe
