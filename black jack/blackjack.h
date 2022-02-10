@@ -66,5 +66,10 @@ extern void save();
 extern void splitdeck();
 //it defines who is the winner if the deck is splitted
 extern void splitwin(int pl, int pl2, int pc);
+//record into a file
+extern void record();
+//record to the screen
+extern void recordscr();
+
 
 #endif _BLACKJACK_H

@@ -12,12 +12,13 @@ void help();
 
 void mainscr(int first) {
 	if (first == 0) { clear(); }
-	printf("Welcome in the world of blackjack!\n\n%s\n%i\n\n\n\t1. Start\n\t2. Help\n\t3. Log out", user.username, user.coin);
+	printf("Welcome in the world of blackjack!\n\n%s\n%i\n\n\n\t1. Start\n\t2. Help\n\t3. Records\n\t4. Log out", user.username, user.coin);
 	while (1) {
 		char men = _getch();
 		if (men == '1'){ gamestart(); }
 		if (men == '2'){ help(); }
-		if (men == '3') { log_out(); startingscreen(); }
+		if (men == '3') { recordscr(); }
+		if (men == '4') { log_out(); startingscreen(); }
 	}
 }
 
