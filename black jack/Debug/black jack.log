@@ -1,7 +1,0 @@
-﻿  save.cpp
-E:\Donat\érettségi\programs\black jack\save.cpp(19,83): warning C4553:  '==': result of expression not used; did you intend '='?
-E:\Donat\érettségi\programs\black jack\save.cpp(20,48): warning C4244:  '=': conversion from 'long' to 'char', possible loss of data
-E:\Donat\érettségi\programs\black jack\save.cpp(27,41): warning C4244:  '=': conversion from 'long' to 'char', possible loss of data
-E:\Donat\érettségi\programs\black jack\save.cpp(39,70): warning C4553:  '==': result of expression not used; did you intend '='?
-E:\Donat\érettségi\programs\black jack\save.cpp(40,40): warning C4244:  '=': conversion from 'long' to 'char', possible loss of data
-  black jack.vcxproj -> E:\Donat\érettségi\programs\black jack\Debug\black jack.exe
