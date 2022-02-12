@@ -1,0 +1,10 @@
+﻿  mainscr.cpp
+  save.cpp
+D:\donat\iskola\érettségi\prog\black jack\save.cpp(19,83): warning C4553:  '==': result of expression not used; did you intend '='?
+D:\donat\iskola\érettségi\prog\black jack\save.cpp(20,48): warning C4244:  '=': conversion from 'long' to 'char', possible loss of data
+D:\donat\iskola\érettségi\prog\black jack\save.cpp(22,41): warning C4267:  'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\donat\iskola\érettségi\prog\black jack\save.cpp(27,41): warning C4244:  '=': conversion from 'long' to 'char', possible loss of data
+D:\donat\iskola\érettségi\prog\black jack\save.cpp(40,70): warning C4553:  '==': result of expression not used; did you intend '='?
+  Generating Code...
+D:\donat\iskola\érettségi\prog\black jack\save.cpp(41,40): warning C4244:  '=': conversion from 'long' to 'char', possible loss of data
+  black jack.vcxproj -> D:\donat\iskola\érettségi\prog\black jack\x64\Debug\black jack.exe
