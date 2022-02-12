@@ -119,10 +119,12 @@ void record() {
 
 	for (int i=0; i < 10; i++) {
 		rechelp = records[i];
-		if (records[i].coin < records[10].coin) {
-			records[10].line = i+1;
-			records[i] = records[10];
-			records[10] = rechelp;
+		for (int g = i + 1; g < 11; g++) {
+			if (records[i].coin < records[g].coin) {
+				records[g].line = i + 1;
+				records[i] = records[g];
+				records[g] = rechelp;
+			}
 		}
 	}
 
