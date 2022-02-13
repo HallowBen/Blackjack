@@ -14,8 +14,9 @@ void bet() {
 	system("cls");
 	printf("Your curent money: %i\n How much money do you want to spend:", user.coin);
 	fgets(input, sizeof input, stdin);
-	sscanf(input,"%i", &plbet);
-		if (plbet > user.coin) { printf("You don't have that much money!"); Sleep(1000); bet(); }
+	sscanf(input, "%i", &plbet);
+	if (plbet > user.coin) { printf("You don't have that much money!"); Sleep(1000); bet(); }
+	else if (plbet <= 0) { printf("You have to make debt!"); Sleep(1000); bet(); }
 }
 
 void Hit() {
@@ -71,13 +72,6 @@ if (plvalue == 21) { user.coin += 2 * plbet; }
 else { user.coin += plbet; }
 save();
 system("cls");
-
-if (user.debt != 0) {
-	if (user.debt < user.coin + 10000) { printf("The bank take back your debt from your money!"); user.coin -= user.debt; user.debt = 0; Sleep(2000); system("cls"); }
-	else {
-		user.debt += 0, 05 * user.debt;
-}
-}
 mainscr(1);}
 
 

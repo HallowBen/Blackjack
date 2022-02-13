@@ -75,5 +75,9 @@ extern void recordscr();
 extern void deleteuser();
 //bank
 extern void Bank();
+//it increase the debt
+extern int debtincreaser(float debt);
+//debt pay back
+extern void debtpayback();
 
 #endif _BLACKJACK_H

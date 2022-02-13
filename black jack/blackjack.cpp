@@ -19,7 +19,7 @@ void gamestart() {
 		playersdeck2[i]=nuller;
 		playersdeck[i]=nuller;
 	}
-	pcy = 0, ply = 0, nc = 0;
+	pcy = 0, ply = 0, nc = 0, deck[5].split = 0;
 	system("cls");
 	deckinput();
 	pcsdeck[pcy] = deck[nc];

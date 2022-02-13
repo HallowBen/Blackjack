@@ -7,6 +7,7 @@
 #include <ctime>
 
 void whowin() {
+	user.debt += debtincreaser((float)user.debt);
 	int plvalue = 0;
 	int pl2value = 0;
 	int pcvalue = 0;
@@ -119,4 +120,12 @@ void splitwin(int pl, int pl2, int pc) {
 	}
 
 	mainscr(1);
+}
+
+
+
+int debtincreaser(float debt) {
+	const float precent = 0.05;
+	debt=debt*precent;
+	return round(debt);
 }
