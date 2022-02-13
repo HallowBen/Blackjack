@@ -53,7 +53,6 @@ void save() {
 	file = fopen("USERS.txt", "r");
 	temp = fopen("temp____USERS.temp", "w");
 	if (file == NULL || temp == NULL) { printf("Opening Error!"); }
-
 	bool keep_reading = true;
 	int current_line = 1;
 	char buffer[2048];
@@ -121,6 +120,7 @@ void record() {
 		rechelp = records[i];
 		for (int g = i + 1; g < 11; g++) {
 			if (records[i].coin < records[g].coin) {
+				rechelp.line = g + 1;
 				records[g].line = i + 1;
 				records[i] = records[g];
 				records[g] = rechelp;

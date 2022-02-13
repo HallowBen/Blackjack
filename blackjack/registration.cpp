@@ -118,8 +118,8 @@ void newuser() {
 
 void loggin(int start) {
 	int i=0;
-	char userin[256];
-	char passwordin[256];
+	char userin[21];
+	char passwordin[17];
 	char c{};
 	if (start == 1) {
 		printf("Wrong username or Password try again! or Create a new accout (1)");
